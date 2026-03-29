@@ -1,20 +1,32 @@
 ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Hey, I'm Satyabrat Srikumar
 =======================================================================================================================================
 
-ML Engineer · Founder · Columbia CS '25
-----------------------------------------
+AI Product Builder · ML Engineer · Columbia CS '25
+---------------------------------------------------
 
-I build AI systems end-to-end — from research prototypes to production platforms. Currently founding **TheAdmitAI**, a psychometric profiling engine for education, and exploring frontier LLM architectures.
+I sit at the intersection of **product strategy** and **ML engineering** — I think in user problems and ship in Python. 7 years of building AI systems end-to-end, from scoping the problem to deploying the model.
 
 `7 years in applied ML / NLP / data engineering` · `MS in Computer Science (Machine Learning), Columbia University`
 
 * 🌍  Based in New York
-* 🚀  Currently building **TheAdmitAI** — a Self-Discovery Engine for admissions coaching
+* 📐  I spec PRDs, run A/B frameworks, and write the FastAPI routes myself
 * 🧠  Deep into RAG systems, LLM architecture, and AI product strategy
-* 🤝  Open to collaborating on applied ML, NLP, and AI product projects
+* 🤝  Open to **AI / Technical Product Management** roles at frontier labs and AI-first companies
 
 <a href="https://www.github.com/ss7172" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/ss7172?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ss7172&label=Profile%20views&color=0e75b6&style=flat" alt="ss7172" /> </p>
+
+---
+
+### 💡 How I Think About Product
+
+I don't just build features — I make trade-off decisions and ship. Here are a few examples from my projects:
+
+🏥 **Clinical RAG Platform** — Chose pgvector over ChromaDB because Render's ephemeral filesystem would wipe vector stores on every restart. One infrastructure constraint shaped the entire AI layer. Chose APScheduler over Airflow for 4 ETL jobs — right-sizing tooling is a product decision, not just an engineering one. Designed role-based access for 3 distinct user personas (admin, doctor, front desk) each with different workflows.
+
+📊 **ML for Climate** — Framed a Kaggle-style prediction problem as a product question: which building features actually drive electricity consumption? Used SHAP interpretability to turn a model into an actionable recommendation — not just a score.
+
+📄 **Paperflow** — Noticed researchers waste time skimming irrelevant papers. Built a fetcher + summarizer that cuts triage time from minutes to seconds. Scoped the MVP to one pain point, shipped fast.
 
 ---
 
@@ -64,6 +76,17 @@ I build AI systems end-to-end — from research prototypes to production platfor
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![Alembic](https://img.shields.io/badge/Alembic-6BA539?style=flat-square)
 
+**Product & Strategy**
+
+![PRDs](https://img.shields.io/badge/PRDs-1A73E8?style=flat-square)
+![A/B Testing](https://img.shields.io/badge/A%2FB_Testing-34A853?style=flat-square)
+![CIRCLES](https://img.shields.io/badge/CIRCLES_Framework-FF6D01?style=flat-square)
+![GTM Strategy](https://img.shields.io/badge/GTM_Strategy-7B1FA2?style=flat-square)
+![Competitive Analysis](https://img.shields.io/badge/Competitive_Analysis-0D47A1?style=flat-square)
+![User Research](https://img.shields.io/badge/User_Research-00897B?style=flat-square)
+![Agile / Scrum](https://img.shields.io/badge/Agile_%2F_Scrum-E65100?style=flat-square)
+![Financial Modeling](https://img.shields.io/badge/Financial_Modeling-263238?style=flat-square)
+
 **Frontend**
 
 <p align="left">
@@ -76,13 +99,13 @@ I build AI systems end-to-end — from research prototypes to production platfor
 
 ### 🚀 Featured Projects
 
-| Project | What It Does | Stack |
-|---------|-------------|-------|
-| [**Clinical-Rag-Platform**](https://github.com/ss7172/Clinical-Rag-Platform) | 3-layer clinical platform: Patient Management → ETL Pipeline → RAG AI Assistant over 7,600+ patient summaries | Flask · React · PostgreSQL · pgvector · Claude · Voyage AI |
-| [**MLforClimate**](https://github.com/ss7172/MLforClimate) | Predictive models for building electricity consumption (Columbia COMS 6998) — feature engineering, SHAP interpretability | scikit-learn · XGBoost · Jupyter |
-| [**Monet-Style-Using-Gans**](https://github.com/ss7172/Monet-Style-Using-Gans) | Generating Monet-style paintings from photographs using Generative Adversarial Networks | PyTorch · GANs |
-| [**State-Space-Models-for-Pos_tagging**](https://github.com/ss7172/State-Space-Models-for-Pos_tagging) | POS tagging with Hidden Markov Models and state-space formulations | MATLAB |
-| [**paperflow**](https://github.com/ss7172/paperflow) | Automated arXiv paper fetcher and summarizer with a web interface | Python · Flask · SQLite |
+| Project | What It Does | Product Decisions | Stack |
+|---------|-------------|-------------------|-------|
+| [**Clinical-Rag-Platform**](https://github.com/ss7172/Clinical-Rag-Platform) | 3-layer clinical platform: Patient Management → ETL Pipeline → RAG AI Assistant over 7,600+ patient summaries | pgvector > ChromaDB (infra constraint), APScheduler > Airflow (right-sized), 3 user personas with distinct RBAC workflows | Flask · React · PostgreSQL · pgvector · Claude · Voyage AI |
+| [**MLforClimate**](https://github.com/ss7172/MLforClimate) | Predictive models for building electricity consumption (Columbia COMS 6998) | Reframed prediction → recommendation using SHAP interpretability | scikit-learn · XGBoost · Jupyter |
+| [**Monet-Style-Using-Gans**](https://github.com/ss7172/Monet-Style-Using-Gans) | Generating Monet-style paintings from photographs using GANs | End-to-end implementation | PyTorch · GANs |
+| [**State-Space-Models-for-Pos_tagging**](https://github.com/ss7172/State-Space-Models-for-Pos_tagging) | POS tagging with Hidden Markov Models and state-space formulations | — | MATLAB |
+| [**paperflow**](https://github.com/ss7172/paperflow) | Automated arXiv paper fetcher + summarizer | Scoped MVP to one pain point: triage time | Python · Flask · SQLite |
 
 ---
 

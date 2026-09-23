@@ -16,17 +16,6 @@ I sit at the intersection of **product strategy** and **ML engineering** — I t
 <a href="https://www.github.com/ss7172" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/ss7172?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ss7172&label=Profile%20views&color=0e75b6&style=flat" alt="ss7172" /> </p>
 
----
-
-### 💡 How I Think About Product
-
-I don't just build features — I make trade-off decisions and ship. Here are a few examples from my projects:
-
-🏥 **Clinical RAG Platform** — Chose pgvector over ChromaDB because Render's ephemeral filesystem would wipe vector stores on every restart. One infrastructure constraint shaped the entire AI layer. Chose APScheduler over Airflow for 4 ETL jobs — right-sizing tooling is a product decision, not just an engineering one. Designed role-based access for 3 distinct user personas (admin, doctor, front desk) each with different workflows.
-
-📊 **ML for Climate** — Framed a Kaggle-style prediction problem as a product question: which building features actually drive electricity consumption? Used SHAP interpretability to turn a model into an actionable recommendation — not just a score.
-
-📄 **Paperflow** — Noticed researchers waste time skimming irrelevant papers. Built a fetcher + summarizer that cuts triage time from minutes to seconds. Scoped the MVP to one pain point, shipped fast.
 
 ---
 

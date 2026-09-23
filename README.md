@@ -101,6 +101,7 @@ I don't just build features — I make trade-off decisions and ship. Here are a 
 
 | Project | What It Does | Product Decisions | Stack |
 |---------|-------------|-------------------|-------|
+| [**graph-agents-cli**](https://github.com/ss7172/graph-agents-cli) | CLI for scaffolding, evaluating and deploying LangGraph agents, with six coding-assistant skills | Adapted Google agents-cli for self-hosted Kubernetes; configurable model providers and Helm/Argo CD deployment | Python · LangGraph · FastAPI · Kubernetes · Helm · Argo CD |
 | [**Clinical-Rag-Platform**](https://github.com/ss7172/Clinical-Rag-Platform) | 3-layer clinical platform: Patient Management → ETL Pipeline → RAG AI Assistant over 7,600+ patient summaries | pgvector > ChromaDB (infra constraint), APScheduler > Airflow (right-sized), 3 user personas with distinct RBAC workflows | Flask · React · PostgreSQL · pgvector · Claude · Voyage AI |
 | [**MLforClimate**](https://github.com/ss7172/MLforClimate) | Predictive models for building electricity consumption (Columbia COMS 6998) | Reframed prediction → recommendation using SHAP interpretability | scikit-learn · XGBoost · Jupyter |
 | [**Monet-Style-Using-Gans**](https://github.com/ss7172/Monet-Style-Using-Gans) | Generating Monet-style paintings from photographs using GANs | End-to-end implementation | PyTorch · GANs |
